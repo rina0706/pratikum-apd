@@ -46,7 +46,6 @@ for koridor in range(1, jumlah_koridor + 1):
         if nomor_ruangan % 2 == 1:
             data_intelejen += 1
             print(f"  Ruangan {ruangan}: Data Intelijen ditemukan")
-            data_intelejen += 1
         else:
             print(f"  Ruangan {ruangan}: Perangkap Peledak dijinakkan")
             perangkap_dijinakkan += 1
