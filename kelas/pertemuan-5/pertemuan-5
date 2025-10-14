@@ -81,9 +81,6 @@ for nama_barang in barang:
     print(barang1)
     print(barang2)
 
-mahasiswa = [["triangle","bola"],["meja","televisi"],("handphone","laptop")]
-for nama_barang in mahasiswa:
-    print(nama_barang)
-    for barang in nama_barang:
-        print(barang)
+mahasiswa = [["A","B"],["C","D"],("E","F")]
+
 
