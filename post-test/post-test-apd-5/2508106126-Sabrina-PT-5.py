@@ -1,10 +1,9 @@
-#Data awal
-data = ["Potion of Strength", "Healing Potion", "Potion of Swiftness"]
+dataPotion_Minecraft= ["Potion of Strength", "Healing Potion", "Potion of Swiftness"]
 
-print("=== DATA AWAL ===")
+print("=== DATA POTION MINECRAFT ===")
 i = 0
-while i < len(data):
-    print(f"{i+1}. {data[i]}")
+while i < len(dataPotion_Minecraft):
+    print(f"{i+1}. {dataPotion_Minecraft[i]}")
     i = i + 1
 
 print("\n=== PROGRAM CRUD DASAR ===")
