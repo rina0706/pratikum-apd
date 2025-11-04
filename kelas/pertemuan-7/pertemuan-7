@@ -65,7 +65,16 @@
 # hasil = faktorial(5)
 # print(f"Hasil dari 5! adalah: {hasil}")
 
-film = [the beast, avengers, spiderman]
+# film = [spiderman, avengers, ironman]
+# # Fungsi untuk menampilkan semua data
+# def show_data():
+#     if len(film) <= 0:
+#         print("Belum Ada data")
+#     else:
+#         print("ID | Judul Film")
+#         for indeks in range(len(film)):
+#             print(indeks, "1", film[indeks])
+
 # Fungsi untuk menampilkan semua data
 def show_data():
     if len(film) <= 0:
@@ -73,4 +82,4 @@ def show_data():
     else:
         print("ID | Judul Film")
         for indeks in range(len(film)):
-            print(indeks, "|", film[indeks])
+            print(indeks, "1 q", film[indeks])
